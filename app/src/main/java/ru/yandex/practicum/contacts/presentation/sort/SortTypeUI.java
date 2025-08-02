@@ -24,8 +24,8 @@ public class SortTypeUI implements ListDiffInterface<SortTypeUI> {
     }
 
     @Override
-    public boolean theSameAs(SortTypeUI newItem) {
-        return this.hashCode() == newItem.hashCode();
+    public boolean theSameAs(SortTypeUI other) {
+        return this.hashCode() == other.hashCode();
     }
 
     @Override
